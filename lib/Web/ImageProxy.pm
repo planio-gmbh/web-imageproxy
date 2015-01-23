@@ -3,6 +3,7 @@ package Web::ImageProxy;
 use strict;
 use warnings;
 
+use AnyEvent::Fork;
 use AnyEvent::Fork::Pool;
 use AnyEvent::HTTP;
 use HTTP::Date;
